@@ -1,0 +1,15 @@
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/appsettings.Development.json
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/appsettings.json
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/bower.json
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/bundleconfig.json
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/Properties/launchSettings.json
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/Backend2.deps.json
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/Backend2.runtimeconfig.json
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/Backend2.runtimeconfig.dev.json
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/Backend2.dll
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/bin/Debug/netcoreapp2.0/Backend2.pdb
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/obj/Debug/netcoreapp2.0/Backend2.csprojAssemblyReference.cache
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/obj/Debug/netcoreapp2.0/Backend2.AssemblyInfoInputs.cache
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/obj/Debug/netcoreapp2.0/Backend2.AssemblyInfo.cs
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/obj/Debug/netcoreapp2.0/Backend2.dll
+/Users/mohameddesouky/Downloads/WebInt-Backend2-master/Backend2/obj/Debug/netcoreapp2.0/Backend2.pdb

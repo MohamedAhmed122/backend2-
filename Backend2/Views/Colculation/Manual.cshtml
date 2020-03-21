@@ -1,0 +1,65 @@
+﻿@model dynamic
+@{
+    ViewBag.Title = "Calculator";
+}
+
+    <h2>Calculator</h2>
+
+            <form asp-controller="Colculation" asp-action="Manual">
+                <div class="form-group form-inline">
+                    <div class="row">
+
+                        @if (ViewBag.Error1 == null && ViewBag.Error2 == null && ViewBag.Error3 == null)
+                        {
+                            <input class="form-control" name="Num1" type="text" />
+                            <select name="Op" class="form-control">
+                                <option selected>+</option>
+                                <option>-</option>
+                                <option>*</option>
+                                <option>/</option>
+                            </select>
+
+
+                            <input class="form-control" name="Num2" type="text" />
+
+                        }
+                        else if (ViewBag.Error1 != null)
+                        {
+                            <input class="form-control" name="Num1" type="text" />
+                            <select name="Op" class="form-control">
+                                <option selected>+</option>
+                                <option>-</option>
+                                <option>*</option>
+                                <option>/</option>
+                            </select>
+                            <input class="form-control" name="Num2" type="text" />
+                            <span class="field-validation-error">@ViewBag.Error1</span>
+                        }
+                        else if (ViewBag.Error2 != null)
+                        {
+                            <input class="form-control" name="Num1" type="text" />
+                            <select name="Op" class="form-control">
+                                <option selected>+</option>
+                                <option>-</option>
+                                <option>*</option>
+                                <option>/</option>
+                            </select>
+                            <input class="form-control" name="Num2" type="text" />
+                            <span class="field-validation-error">@ViewBag.Error2</span>
+                        }
+                        else if (ViewBag.Error3 != null )
+                        {
+                            <input class="form-control" name="Num1" type="text" />
+                            <select name="Op" class="form-control">
+                                <option selected>+</option>
+                                <option>-</option>
+                                <option>*</option>
+                                <option>/</option>
+                            </select>
+                            <input class="form-control" name="Num2" type="text" />
+                            <span class="field-validation-error">@ViewBag.Error3</span>
+                        }
+                        <button type="submit" class="btn btn-primary"> Calculate</button>
+                    </div>
+                    </div>
+            </form>

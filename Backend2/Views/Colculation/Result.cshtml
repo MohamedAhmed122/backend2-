@@ -1,0 +1,24 @@
+﻿@model Backend2.Models.ColculationModel
+@{
+    ViewBag.Title = "Calculator";
+}
+
+<h2>Calculator</h2>
+
+<form asp-action="Manual">
+    <div class="form-group form-inline">
+        <div class="row">
+
+                <input class="form-control" name="Num1" type="text"  value="@Model.firstNum"/>
+                <select name="Op" class="form-control">
+                    <option selected>+</option>
+                    <option>-</option>
+                    <option>*</option>
+                    <option>/</option>
+                </select>
+                <input class="form-control" name="Num2" type="text" value="@Model.secondNum" />
+
+            <p class="form-group"> = @Model.Result</p>
+        </div>
+    </div>
+</form>
